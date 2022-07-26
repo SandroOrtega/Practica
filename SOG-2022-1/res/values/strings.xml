@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SOG-2022-1</string>
+    <string name="BotonUno">Siguiente</string>
+    <string name="uno">Formula uno</string>
+    <string name="BotonDos">Siguiente</string>
+    <string name="dos">Formula uno</string>
+    <string name="BotonTres">Siguiente</string>
+    <string name="tres">Formula uno </string>
+    <string name="BotonCuatro">Inicio</string>
+</resources>
