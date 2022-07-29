@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/trinangulo"
+        android:layout_width="305dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pentagono"
+        app:srcCompat="@drawable/triangulo"
+        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/pentagono"
+        android:layout_width="308dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado"
+        app:srcCompat="@drawable/pentagono" />
+
+    <ImageButton
+        android:id="@+id/cuadrado"
+        android:layout_width="306dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cuadrado" />
+
+    <ImageButton
+        android:id="@+id/trapecio"
+        android:layout_width="313dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trinangulo"
+        app:srcCompat="@drawable/trapecio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
